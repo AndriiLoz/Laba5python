@@ -5,7 +5,7 @@ class Bug:
         self.deadline = deadline
         self.status = status
         self.assignee = assignee
-      #
+      #making string
     def __str__(self):
         return f"Bug: {self.description}, Severity: {self.severity}, Deadline: {self.deadline}, Status: {self.status}, Assignee: {self.assignee}"
 
